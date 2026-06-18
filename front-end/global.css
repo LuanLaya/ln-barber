@@ -161,3 +161,157 @@ html{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.servicos {
+    padding: 80px 0;
+    background-color: #161b22;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-secao {
+    text-align: center;
+    color: rgb(233, 191, 52);
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.cards-servicos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap; /* em telas pequenas os cards quebram pra baixo */
+}
+
+.card-servico {
+    background-color: #161b22;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    padding: 35px 25px;
+    text-align: center;
+    flex: 1;
+    min-width: 220px;
+    max-width: 300px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card-servico:hover {
+    transform: translateY(-8px);
+    border-color: rgb(233, 191, 52);
+}
+
+.card-icone {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.card-servico h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-servico p {
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.preco {
+    color: rgb(233, 191, 52);
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.diferenciais {
+    padding: 80px 0;
+    background-color: #161b22;
+}
+
+.grid-diferenciais {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.diferencial-item {
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 3px solid rgb(233, 191, 52);
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.diferencial-item:hover {
+    transform: translateY(-5px);
+}
+
+.diferencial-icone {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.diferencial-item h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.diferencial-item p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.cta {
+    padding: 80px 20px;
+    background-color: #161b22;
+    text-align: center;
+    border-top: 1px solid rgba(233, 191, 52, 0.3);
+}
+
+.cta h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    margin-bottom: 35px;
+}
+
+.btn-cta {
+    background-color: rgb(233, 191, 52);
+    color: #161b22;
+    text-decoration: none;
+    padding: 16px 45px;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-cta:hover {
+    background-color: #bd8724;
+    transform: scale(1.05);
+}
