@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="cortes.css">
+    <title>Cortes - LN Barber</title>
+</head>
+<body>
+
+    <aside id="menu" class="menu">
+        <div class="menu-header">
+            <button id="fecharmenu" class="fecharmenu">×</button>
+        </div>
+        <nav class="menu-links">
+            <a href="agendamento.html">Agendamento</a>
+            <a href="cortes.html">Cortes</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </aside>
+
+    <div id="overlay-menu" class="overlay-menu"></div>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><h1 id="logo">Barbershop</h1></a>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <a class="agendamento" href="login.html">Agendamento</a>
+                <button id="openMenu" class="btn-abrir-menu">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero-pequeno">
+            <div class="hero-pequeno-content">
+                <h2>Nossos Cortes</h2>
+                <p>Encontre o estilo perfeito para você</p>
+            </div>
+        </section>
+
+        <section class="galeria">
+            <div class="container">
+
+                <div class="cards-cortes">
+
+                    <div class="card-corte">
+                        <img src="imagens/cortedegrade.jpg" alt="Corte Degradê">
+                        <div class="card-corte-info">
+                            <h3>Degradê</h3>
+                            <p>Transição suave entre os comprimentos, moderno e versátil.</p>
+                            <span class="preco">R$ 35</span>
+                        </div>
+                    </div>
+
+                    <div class="card-corte">
+                        <img src="imagens/corteamericano.jpg" alt="Corte Americano">
+                        <div class="card-corte-info">
+                            <h3>Corte Americano</h3>
+                            <p>Clássico e atemporal, ideal para o dia a dia.</p>
+                            <span class="preco">R$ 35</span>
+                        </div>
+                    </div>
+
+                    <div class="card-corte">
+                        <img src="imagens/cortenavalhado.jpg" alt="Corte Navalhado">
+                        <div class="card-corte-info">
+                            <h3>Navalhado</h3>
+                            <p>Acabamento preciso com navalha para um visual impecável.</p>
+                            <span class="preco">R$ 40</span>
+                        </div>
+                    </div>
+
+                    <div class="card-corte">
+                        <img src="imagens/cortesocial.jpg" alt="Corte Social">
+                        <div class="card-corte-info">
+                            <h3>Social</h3>
+                            <p>Elegante e sofisticado, perfeito para ocasiões especiais.</p>
+                            <span class="preco">R$ 40</span>
+                        </div>
+                    </div>
+
+                    <div class="card-corte">
+                        <img src="imagens/cortemullet.jpg" alt="Corte Mullet">
+                        <div class="card-corte-info">
+                            <h3>Mullet Moderno</h3>
+                            <p>Tendência atual com personalidade e estilo único.</p>
+                            <span class="preco">R$ 45</span>
+                        </div>
+                    </div>
+
+                    <div class="card-corte">
+                        <img src="imagens/corteebarba.jpg" alt="Corte + Barba">
+                        <div class="card-corte-info">
+                            <h3>Corte + Barba</h3>
+                            <p>Combo completo para um visual totalmente alinhado.</p>
+                            <span class="preco">R$ 55</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape-grid">
+                <div class="rodape-coluna">
+                    <h3>LN Barber</h3>
+                    <p>Mais que um corte, um novo conceito de estilo.</p>
+                </div>
+                <div class="rodape-coluna">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="cortes.html">Cortes</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="login.html">Agendamento</a></li>
+                    </ul>
+                </div>
+                <div class="rodape-coluna">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li>📍 Rua Exemplo, 123 - Bairro</li>
+                        <li>📞 (21) 99999-9999</li>
+                        <li>🕐 Seg–Sáb: 9h às 20h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rodape-bottom">
+                <p>© 2025 LN Barber. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="btn-scroll" class="btn-scroll">↓</button>
+    <script src="index.js"></script>
+
+</body>
+</html>

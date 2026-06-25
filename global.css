@@ -30,6 +30,11 @@ html{
     z-index: 1000;
 }
 
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
 .agendamento{
     text-decoration: none;
     padding: 0.5rem 1.2rem;
@@ -314,4 +319,110 @@ html{
 .btn-cta:hover {
     background-color: #bd8724;
     transform: scale(1.05);
+}
+
+.rodape {
+    background-color: #0d1117;
+    padding: 60px 0 0;
+    border-top: 1px solid rgba(233, 191, 52, 0.3);
+}
+
+.rodape-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.rodape-coluna h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgb(233, 191, 52);
+    margin-bottom: 15px;
+}
+
+.rodape-coluna h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.rodape-coluna p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.rodape-coluna ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-coluna ul li {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+
+.rodape-coluna ul a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.rodape-coluna ul a:hover {
+    color: rgb(233, 191, 52);
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.redes-sociais a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    color: rgb(233, 191, 52);
+}
+
+.rodape-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape-bottom p {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.85rem;
+}
+
+.btn-scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgb(233, 191, 52);
+    color: #161b22;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    z-index: 999;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.btn-scroll:hover {
+    transform: scale(1.1);
+    background-color: #bd8724;
 }
